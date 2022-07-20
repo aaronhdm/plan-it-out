@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <title>PLAN-IT-OUT</title>
+  </head>
+
+  <body>
+
+    <!-- Insterted Jumbotron and Time Clock -->
+    <header class="jumbotron">
+      <h1 class="display-3">PLAN-IT-OUT</h1>
+      <p class="lead">a simple app for planning out your day</p>
+      <title>Moment.js</title>
+      <h1 id="1a"> <span id="time"> </span></h1>
+      <p id="1a" class="answer"></p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+
+    <div class="container">
+
+    <!-- Timeblock 9 -->
+  <main class="container-fluid">
+   <div class="alert alert-dark" role="alert" id = "one">
+        <div class="d-flex justify-content-around">
+          <li class="list-group-item">09:00am</li>
+          <input class="form-control" type="text" placeholder="Enter an event" id="user-input">
+          <button type="submit" class="btn btn-primary" id = "submit-button1" onclick="userInput()">Submit</button>
+        </div>
+        &nbsp;
+        <p><strong>Task:</strong> <span id="event1"></span></p>
+    </div>
+   </main>
+   
+    <!-- Timeblock 10 -->
+ <main class="container-fluid">
+  <div class="alert alert-dark" role="alert" id = "two">
+       <div class="d-flex justify-content-around">
+         <li class="list-group-item">10:00am</li>
+         <input class="form-control" type="text" placeholder="Enter an event" id="user-input2">
+         <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput2()">Submit</button>
+       </div>
+       &nbsp;
+       <p><strong>Task:</strong> <span id="event2"></span></p>
+   </div>
+  </main>
+  
+    <!-- Timeblock 11 -->
+  <main class="container-fluid">
+    <div class="alert alert-dark" role="alert" id = "three">
+         <div class="d-flex justify-content-around">
+           <li class="list-group-item">11:00am</li>
+           <input class="form-control" type="text" placeholder="Enter an event" id="user-input3">
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput3()">Submit</button>
+         </div>
+         &nbsp;
+         <p><strong>Task:</strong> <span id="event3"></span></p>
+     </div>
+    </main>
+    
+    <!-- Timeblock 12 -->
+  <main class="container-fluid">
+    <div class="alert alert-dark" role="alert" id = "four">
+         <div class="d-flex justify-content-around">
+           <li class="list-group-item">12:00pm</li>
+           <input class="form-control" type="text" placeholder="Enter an event" id="user-input4">
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput4()">Submit</button>
+         </div>
+         &nbsp;
+         <p><strong>Task:</strong> <span id="event4"></span></p>
+     </div>
+    </main>
+    
+    <!-- Timeblock 1 -->
+  <main class="container-fluid">
+    <div class="alert alert-dark" role="alert" id = "five">
+         <div class="d-flex justify-content-around">
+           <li class="list-group-item">1:00pm</li>
+           <input class="form-control" type="text" placeholder="Enter an event" id="user-input5">
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput5()">Submit</button>
+         </div>
+         &nbsp;
+         <p><strong>Task:</strong> <span id="event5"></span></p>
+     </div>
+    </main>
+    
+    <!-- Timeblock 2 -->
+  <main class="container-fluid">
+    <div class="alert alert-dark" role="alert" id = "six">
+         <div class="d-flex justify-content-around">
+           <li class="list-group-item">2:00pm</li>
+           <input class="form-control" type="text" placeholder="Enter an event" id="user-input6">
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput6()">Submit</button>
+         </div>
+         &nbsp;
+         <p><strong>Task:</strong> <span id="event6"></span></p>
+     </div>
+    </main>
+    
+    <!-- Timeblock 3 -->
+  <main class="container-fluid">
+    <div class="alert alert-dark" role="alert" id = "seven">
+         <div class="d-flex justify-content-around">
+           <li class="list-group-item">3:00pm</li>
+           <input class="form-control" type="text" placeholder="Enter an event" id="user-input7">
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput7()">Submit</button>
+         </div>
+         &nbsp;
+         <p><strong>Task:</strong> <span id="event7"></span></p>
+     </div>
+    </main>
+    
+    <!-- Timeblock 4 -->
+  <main class="container-fluid">
+    <div class="alert alert-dark" role="alert" id = "eight">
+         <div class="d-flex justify-content-around">
+           <li class="list-group-item">4:00pm</li>
+           <input class="form-control" type="text" placeholder="Enter an event" id="user-input8">
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput8()">Submit</button>
+         </div>
+         &nbsp;
+         <p><strong>Task:</strong> <span id="event8"></span></p>
+     </div>
+    </main>
+    
+    <!-- Timeblock 5 -->
+  <main class="container-fluid">
+    <div class="alert alert-dark" role="alert" id = "nine">
+         <div class="d-flex justify-content-around">
+           <li class="list-group-item">5:00pm</li>
+           <input class="form-control" type="text" placeholder="Enter an event" id="user-input9">
+           <button type="submit" class="btn btn-primary" id = "submit-button" onclick="userInput9()">Submit</button>
+         </div>
+         &nbsp;
+         <p><strong>Task:</strong> <span id="event9"></span></p>
+     </div>
+    </main>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+    
+  </body>
+
+</html>

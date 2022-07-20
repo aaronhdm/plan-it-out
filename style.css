@@ -1,0 +1,44 @@
+/* CSS Styling for color of entire page */
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #007172;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: #F29325;
+  border-radius: 0;
+  border-bottom: 5px solid #F29325;
+  background-color: #025259;
+}
+
+.list-group-item {
+  background-color: #D94F04;
+  font-weight: bolder;
+}
+
+.form-control {
+  background-color: white;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+  background-color: #F4E2DE;
+}
+
+.past {
+  background-color: lightcoral;
+  color: lightcoral;
+}
+
+.present {
+  background-color: lightskyblue;
+  color: lightskyblue;
+}
+
+.future {
+  background-color: lightseagreen;
+  color: lightseagreen;
+}
