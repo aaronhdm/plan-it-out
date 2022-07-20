@@ -29,6 +29,6 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 Preview of App
-```
+
 ![PLAN-IT-OUT](https://user-images.githubusercontent.com/107087837/179884393-2c68eea1-d383-4738-b85a-e3e9f1cbdeac.png)
 
